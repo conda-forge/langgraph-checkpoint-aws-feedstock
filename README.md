@@ -143,6 +143,7 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@3coins](https://github.com/3coins/)
 * [@ccurme](https://github.com/ccurme/)
 * [@michaelnchin](https://github.com/michaelnchin/)
 
