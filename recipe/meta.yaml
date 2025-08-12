@@ -22,7 +22,7 @@ requirements:
   run:
     - python >={{ python_min }}
     - langgraph-checkpoint >=2.0.0
-    - langgraph >=0.2.55
+    - langgraph >=0.2.55,<0.7
     - boto3 >=1.37.3
 
 test:
