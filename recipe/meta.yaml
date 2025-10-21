@@ -17,13 +17,13 @@ build:
 requirements:
   host:
     - python {{ python_min }}
-    - poetry-core
+    - pdm-backend
     - pip
   run:
     - python >={{ python_min }}
-    - langgraph-checkpoint >=2.0.0
-    - langgraph >=0.2.55,<0.7
-    - boto3 >=1.37.3
+    - langgraph-checkpoint >=2.1.2
+    - langgraph >=1.0.0
+    - boto3 >=1.40.19
 
 test:
   imports:
