@@ -24,7 +24,7 @@ requirements:
     - langgraph-checkpoint >=3.0.0,<4.0.0
     - langgraph >=1.0.0
     - boto3 >=1.40.19
-    - typing_extensions >=4.0.0  # [py<311]
+    - typing_extensions >=4.0.0
 
 test:
   imports:
