@@ -1,5 +1,5 @@
 {% set name = "langgraph-checkpoint-aws" %}
-{% set version = "1.0.0" %}
+{% set version = "1.0.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/langgraph_checkpoint_aws-{{ version }}.tar.gz
-  sha256: 7276b2fdc0ba4a51678214d869700754b7f1bcf0fab0f2c40e251d6672fa9992
+  sha256: 6f5f84a4fbb7b33924ba5107b2e79b96393dab3926087062856f8dcba61a8187
 
 build:
   noarch: python
@@ -21,9 +21,10 @@ requirements:
     - pip
   run:
     - python >={{ python_min }}
-    - langgraph-checkpoint >=2.1.2
+    - langgraph-checkpoint >=3.0.0,<4.0.0
     - langgraph >=1.0.0
     - boto3 >=1.40.19
+    - typing_extensions >=4.0.0
 
 test:
   imports:
