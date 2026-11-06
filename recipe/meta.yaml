@@ -1,5 +1,5 @@
 {% set name = "langgraph-checkpoint-aws" %}
-{% set version = "1.2.6" %}
+{% set version = "1.2.7" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/langgraph_checkpoint_aws-{{ version }}.tar.gz
-  sha256: 882e4cb8220af0649f8a7cbe0a1f4e209829f3858c043cbd031422d7baa9d917
+  sha256: d46cbf1541c49fe0f5e06b8b281b8ad4a3d5df5c0e5d05d1ee4f5c5ac9f1c63e
 
 build:
   noarch: python
